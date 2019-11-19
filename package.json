@@ -1,0 +1,15 @@
+{
+  "name": "migrations",
+  "version": "1.0.0",
+  "description": "Example migrations app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jaakko Laurila <jaakko.o.laurila@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "knex": "0.20.2",
+    "mysql": "2.17.1"
+  }
+}
