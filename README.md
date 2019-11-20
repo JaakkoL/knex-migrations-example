@@ -56,6 +56,16 @@ Batch 1 rolled back the following migrations:
 $ node_modules/.bin/knex migrate:make new-migration  --env=local
 Using environment: local
 Created Migration: ~/knex-migrations-example/migrations/20191119151542_new-migration.js
+
+# Create a new seed file
+$ node_modules/.bin/knex seed:make new_seed_file --env=local
+Using environment: local
+Created seed file: ~/knex-migrations-example/seeds/new_seed_file.js
+
+# Run seed files
+$ node_modules/.bin/knex seed:run --env=local
+Using environment: local
+Ran 1 seed files
 ```
 
 ## Links
